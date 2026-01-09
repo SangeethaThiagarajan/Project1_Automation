@@ -18,6 +18,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "HI ,Hello World , How r u !!!" );
+        System.out.println( "HI ,Hello World , How r u !!!" );
         WebDriverManager.chromedriver().setup();
        WebDriver driver=new ChromeDriver();
        driver.get("https://www.lambdatest.com/selenium-playground/");
