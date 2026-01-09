@@ -24,6 +24,7 @@ public class App
        driver.get("https://www.lambdatest.com/selenium-playground/");
        driver.manage().window().maximize();
 
+       System.out.println("Welcome");
        // Print title
        System.out.println("Page Title: " + driver.getTitle());
 
